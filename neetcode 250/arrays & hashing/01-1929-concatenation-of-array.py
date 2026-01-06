@@ -9,12 +9,17 @@ Specifically, ans is the concatenation of two nums arrays.
 Return the array ans.
 """
 
-from ast import List
-
-
+# Time complexity: O(n)
+# Space complexity: O(1)
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
         size = len(nums)
         for i in range(size):
             nums.append(nums[i])
+        return nums
+
+# Pythonic way
+class Solution:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        nums.extend(nums)
         return nums
