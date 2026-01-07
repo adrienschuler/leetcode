@@ -6,7 +6,7 @@ Write a function to find the longest common prefix string amongst an array of st
 If there is no common prefix, return an empty string "".
 """
 
-# Vertical Scanning
+# Approach: Vertical Scanning
 # Time Complexity: O(S) where S is the sum of all characters in all strings
 # Space Complexity: O(1)
 class Solution:

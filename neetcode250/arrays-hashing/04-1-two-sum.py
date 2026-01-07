@@ -5,7 +5,7 @@ Easy
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 """
 
-# Brute force
+# Approach: Brute force
 # Time complexity: O(n^2)
 # Space complexity: O(1)
 class Solution:
@@ -16,7 +16,7 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
 
-# Two pass Hash Table
+# Approach: Two pass Hash Table
 # Time complexity: O(n)
 # Space complexity: O(n)
 class Solution:
@@ -34,7 +34,7 @@ class Solution:
 
         return []
 
-# One pass Hash Table
+# Approach: One pass Hash Table
 # Time complexity: O(n)
 # Space complexity: O(n)
 class Solution:
