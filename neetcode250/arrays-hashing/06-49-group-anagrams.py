@@ -5,6 +5,8 @@ Medium
 Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 """
 
+# Topics: Hash Table, String, Sorting
+
 # Approach: Sort each string and use it as a key in a hash map
 # Time Complexity: O(n * k log k) where n is the number of strings and k is the maximum length of a string
 # Space Complexity: O(n)

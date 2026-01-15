@@ -5,6 +5,8 @@ Easy
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 """
 
+# Topics: Hash Table, String, Sorting
+
 # Approach: Frequency Counter
 # Time Complexity: O(n)
 # Space Complexity: O(1) - since the character set is limited

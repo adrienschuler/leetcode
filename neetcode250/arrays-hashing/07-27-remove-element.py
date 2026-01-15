@@ -10,6 +10,8 @@ Change the array nums such that the first k elements of nums contain the element
 Return k.
 """
 
+# Topics: Array, Two Pointers
+
 # Approach:
 # Time Complexity: O(n)
 # Space Complexity: O(1)

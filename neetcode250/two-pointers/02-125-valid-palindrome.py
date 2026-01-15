@@ -8,6 +8,7 @@ Given a string s, return true if it is a palindrome, or false otherwise.
 """
 
 # Topics: Two Pointers, String
+
 # Approach: Use two pointers to compare characters from both ends after cleaning the string
 # Time complexity: O(n)
 # Space complexity: O(1)

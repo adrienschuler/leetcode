@@ -17,6 +17,8 @@ obj.remove(key)
 param_3 = obj.contains(key)
 """
 
+# Topics: Hash Table
+
 # Approach: Brute force using a list
 # Time Complexity: O(n) for add, remove, and contains
 # Space Complexity: O(n)
@@ -42,3 +44,5 @@ class MyHashSet:
             if num == key:
                 return True
         return False
+
+# TODO: Implement a more efficient version

@@ -9,6 +9,8 @@ Specifically, ans is the concatenation of two nums arrays.
 Return the array ans.
 """
 
+# Topics: Arrays
+
 # Time complexity: O(n)
 # Space complexity: O(1)
 class Solution:
