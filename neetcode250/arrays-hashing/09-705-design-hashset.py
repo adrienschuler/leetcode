@@ -15,12 +15,15 @@ obj = MyHashSet()
 obj.add(key)
 obj.remove(key)
 param_3 = obj.contains(key)
+
+Topics: Hash Table, Linked List
+
+Intuition:
+Handling collisions is the main challenge when designing a hash set.
 """
 
-# Topics: Hash Table
-
-# Approach: Brute force using a list
-# Time Complexity: O(n) for add, remove, and contains
+# Approach: Brute force using a simple list
+# Time Complexity: Average O(n), Worst O(n)
 # Space Complexity: O(n)
 class MyHashSet:
 
@@ -45,8 +48,8 @@ class MyHashSet:
                 return True
         return False
 
-# Approach: Using a linked list for collision handling
-# Time Complexity: O(1) for add, remove, and contains on average
+# Approach: Hashing with Linked Lists (Chaining).
+# Time Complexity: Average O(1), Worst O(n)
 # Space Complexity: O(n)
 class ListNode:
     def __init__(self, key):
@@ -82,3 +85,12 @@ class MyHashSet:
             cur = cur.next
         return False
 
+"""
+Other possible approaches:
+- Hashing w/ Open Addressing:
+    - Time Complexity: Average O(1), Worst O(n)
+    - Space Complexity: O(n)
+- Balanced BST
+    - Time Complexity: O(log n)
+    - Space Complexity: O(n)
+"""
