@@ -8,41 +8,41 @@ This repository contains my solutions to LeetCode problems.
 
 | Problem | Difficulty | Main Algorithm | My Best Time |
 |---|:---:|---|---|
-| [1929. Concatenation of Array](neetcode250/arrays-hashing/01-1929-concatenation-of-array.py) | <span style="color:green">Easy</span> | Array |  |
-| [217. Contains Duplicate](neetcode250/arrays-hashing/02-217-contains-duplicate.py) | <span style="color:green">Easy</span> | HashSet |  |
-| [242. Valid Anagram](neetcode250/arrays-hashing/03-242-valid-anagram.py) | <span style="color:green">Easy</span> | HashMap |  |
-| [1. Two Sum](neetcode250/arrays-hashing/04-1-two-sum.py) | <span style="color:green">Easy</span> | HashMap |  |
-| [14. Longest Common Prefix](neetcode250/arrays-hashing/05-14-longest-common-prefix.py) | <span style="color:green">Easy</span> | String |  |
-| [49. Group Anagrams](neetcode250/arrays-hashing/06-49-group-anagrams.py) | <span style="color:yellow">Medium</span> | HashMap |  |
-| [27. Remove Element](neetcode250/arrays-hashing/07-27-remove-element.py) | <span style="color:green">Easy</span> | Two Pointers |  |
-| [169. Majority Element](neetcode250/arrays-hashing/08-169-majority-element.py) | <span style="color:green">Easy</span> | Boyer-Moore |  |
-| [705. Design HashSet](neetcode250/arrays-hashing/09-705-design-hashset.py) | <span style="color:yellow">Medium</span> | HashSet Design |  |
-| [706. Design HashMap](neetcode250/arrays-hashing/10-706-design-hashmap.py) | <span style="color:yellow">Medium</span> | HashMap Design |  |
-| [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) | <span style="color:yellow">Medium</span> | Merge/Quick Sort |  |
+| [1929. Concatenation of Array](neetcode250/arrays-hashing/01-1929-concatenation-of-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Array |  |
+| [217. Contains Duplicate](neetcode250/arrays-hashing/02-217-contains-duplicate.py) | $\textcolor{green}{\textsf{Easy}}$ | HashSet |  |
+| [242. Valid Anagram](neetcode250/arrays-hashing/03-242-valid-anagram.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap |  |
+| [1. Two Sum](neetcode250/arrays-hashing/04-1-two-sum.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap |  |
+| [14. Longest Common Prefix](neetcode250/arrays-hashing/05-14-longest-common-prefix.py) | $\textcolor{green}{\textsf{Easy}}$ | String |  |
+| [49. Group Anagrams](neetcode250/arrays-hashing/06-49-group-anagrams.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap |  |
+| [27. Remove Element](neetcode250/arrays-hashing/07-27-remove-element.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers |  |
+| [169. Majority Element](neetcode250/arrays-hashing/08-169-majority-element.py) | $\textcolor{green}{\textsf{Easy}}$ | Boyer-Moore |  |
+| [705. Design HashSet](neetcode250/arrays-hashing/09-705-design-hashset.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashSet Design |  |
+| [706. Design HashMap](neetcode250/arrays-hashing/10-706-design-hashmap.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap Design |  |
+| [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Merge/Quick Sort |  |
 
 ### Linked List
 
 | Problem | Difficulty | Main Algorithm | My Best Time |
 |---|:---:|---|---|
-| [206. Reverse Linked List](neetcode250/linked-list/01-206-reverse-linked-list.py) | <span style="color:green">Easy</span> | Iterative/Recursive |  |
+| [206. Reverse Linked List](neetcode250/linked-list/01-206-reverse-linked-list.py) | $\textcolor{green}{\textsf{Easy}}$ | Iterative/Recursive |  |
 
 ### Maths & Geometry
 
 | Problem | Difficulty | Main Algorithm | My Best Time |
 |---|:---:|---|---|
-| [13. Roman to Integer](neetcode250/maths-geometry/10-13-roman-to-integer.py) | <span style="color:green">Easy</span> | Math, String |  |
+| [13. Roman to Integer](neetcode250/maths-geometry/10-13-roman-to-integer.py) | $\textcolor{green}{\textsf{Easy}}$ | Math, String |  |
 
 ### Two Pointers
 
 | Problem | Difficulty | Main Algorithm | My Best Time |
 |---|:---:|---|---|
-| [125. Valid Palindrome](neetcode250/two-pointers/02-125-valid-palindrome.py) | <span style="color:green">Easy</span> | Two Pointers |  |
+| [125. Valid Palindrome](neetcode250/two-pointers/02-125-valid-palindrome.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers |  |
 
 ## SQL 50
 
 | Problem | Difficulty | Main Algorithm | My Best Time |
 |---|:---:|---|---|
-| [1757. Recyclable and Low Fat Products](sql50/01-1757-recyclable-and-low-fat-products.sql) | <span style="color:green">Easy</span> | SQL Filtering |  |
+| [1757. Recyclable and Low Fat Products](sql50/01-1757-recyclable-and-low-fat-products.sql) | $\textcolor{green}{\textsf{Easy}}$ | SQL Filtering |  |
 
 ## Algorithms & Complexities
 
