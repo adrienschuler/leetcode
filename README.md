@@ -20,7 +20,12 @@ This repository contains my solutions to LeetCode problems.
 | Linked List | [206. Reverse Linked List](neetcode250/linked-list/01-206-reverse-linked-list.py) | $\textcolor{green}{\textsf{Easy}}$ | Iterative/Recursive |  |
 | Maths & Geometry | [13. Roman to Integer](neetcode250/maths-geometry/10-13-roman-to-integer.py) | $\textcolor{green}{\textsf{Easy}}$ | Math, String |  |
 | Two Pointers | [125. Valid Palindrome](neetcode250/two-pointers/02-125-valid-palindrome.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers |  |
-| SQL | [1757. Recyclable and Low Fat Products](sql50/01-1757-recyclable-and-low-fat-products.sql) | $\textcolor{green}{\textsf{Easy}}$ | SQL Filtering |  |
+
+## SQL 50
+
+| Topic | Problem | Difficulty | My Best Time |
+|---|---|:---:|---|
+| Filtering | [1757. Recyclable and Low Fat Products](sql50/01-1757-recyclable-and-low-fat-products.sql) | $\textcolor{green}{\textsf{Easy}}$ |  |
 
 ## Algorithms & Complexities
 
@@ -29,3 +34,4 @@ This repository contains my solutions to LeetCode problems.
 | *Sorting* | Bubble Sort | O(n^2) | O(n^2) | O(1) | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) |
 | *Searching* | Linear Search | O(n) | O(n) | O(1) | [217. Contains Duplicate](neetcode250/arrays-hashing/02-217-contains-duplicate.py), [27. Remove Element](neetcode250/arrays-hashing/07-27-remove-element.py) |
 | *Searching* | Binary Search | O(log n) | O(log n) | O(1) |  |
+| *Voting* | Booyer-Moore | O(n) | O(n) | O(1) | [169. Majority Element](neetcode250/arrays-hashing/08-169-majority-element.py) |
