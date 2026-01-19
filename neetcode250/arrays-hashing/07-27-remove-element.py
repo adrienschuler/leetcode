@@ -12,7 +12,7 @@ Return k.
 
 # Topics: Array, Two Pointers
 
-# Approach:
+# Approach: in-place overwrite
 # Time Complexity: O(n)
 # Space Complexity: O(1)
 class Solution:
