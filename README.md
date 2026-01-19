@@ -6,7 +6,7 @@ This repository contains my solutions to LeetCode problems.
 
 | Topic | Problem | Difficulty | Main Algorithm | My Best Time |
 |---|---|:---:|---|---|
-| Arrays & Hashing | [1929. Concatenation of Array](neetcode250/arrays-hashing/01-1929-concatenation-of-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Array |  |
+| Arrays & Hashing | [1929. Concatenation of Array](neetcode250/arrays-hashing/01-1929-concatenation-of-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Array | 6min |
 | Arrays & Hashing | [217. Contains Duplicate](neetcode250/arrays-hashing/02-217-contains-duplicate.py) | $\textcolor{green}{\textsf{Easy}}$ | HashSet |  |
 | Arrays & Hashing | [242. Valid Anagram](neetcode250/arrays-hashing/03-242-valid-anagram.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap |  |
 | Arrays & Hashing | [1. Two Sum](neetcode250/arrays-hashing/04-1-two-sum.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap |  |
