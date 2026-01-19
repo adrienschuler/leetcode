@@ -6,10 +6,10 @@ This repository contains my solutions to LeetCode problems.
 
 | Topic | Problem | Difficulty | Main Algorithm | My Best Time |
 |---|---|:---:|---|---|
-| Arrays & Hashing | [1929. Concatenation of Array](neetcode250/arrays-hashing/01-1929-concatenation-of-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Array | 6min |
-| Arrays & Hashing | [217. Contains Duplicate](neetcode250/arrays-hashing/02-217-contains-duplicate.py) | $\textcolor{green}{\textsf{Easy}}$ | HashSet |  |
-| Arrays & Hashing | [242. Valid Anagram](neetcode250/arrays-hashing/03-242-valid-anagram.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap |  |
-| Arrays & Hashing | [1. Two Sum](neetcode250/arrays-hashing/04-1-two-sum.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap |  |
+| Arrays & Hashing | [1929. Concatenation of Array](neetcode250/arrays-hashing/01-1929-concatenation-of-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Array | $\textcolor{yellow}{\textsf{6min}}$ |
+| Arrays & Hashing | [217. Contains Duplicate](neetcode250/arrays-hashing/02-217-contains-duplicate.py) | $\textcolor{green}{\textsf{Easy}}$ | HashSet | $\textcolor{yellow}{\textsf{7min}}$ |
+| Arrays & Hashing | [242. Valid Anagram](neetcode250/arrays-hashing/03-242-valid-anagram.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap | $\textcolor{yellow}{\textsf{10min}}$ |
+| Arrays & Hashing | [1. Two Sum](neetcode250/arrays-hashing/04-1-two-sum.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap | $\textcolor{red}{\textsf{Again}}$ |
 | Arrays & Hashing | [14. Longest Common Prefix](neetcode250/arrays-hashing/05-14-longest-common-prefix.py) | $\textcolor{green}{\textsf{Easy}}$ | String |  |
 | Arrays & Hashing | [49. Group Anagrams](neetcode250/arrays-hashing/06-49-group-anagrams.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap |  |
 | Arrays & Hashing | [27. Remove Element](neetcode250/arrays-hashing/07-27-remove-element.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers |  |

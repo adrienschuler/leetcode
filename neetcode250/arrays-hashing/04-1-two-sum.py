@@ -51,3 +51,16 @@ class Solution:
             seen[nums[i]] = i
 
         return []
+
+# Approach: One pass Hash Table
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        seen = defaultdict(int)
+        for i, num in enumerate(nums):
+            diff = target - num
+            if diff in seen:
+                return [seen[diff], i]
+            seen[num] = i
+        return []
