@@ -11,9 +11,6 @@ If there is no common prefix, return an empty string "".
 # Approach: Vertical Scanning with Shortest String
 # Time Complexity: O(m * n) where m is the length of the shortest string and n is the number of strings
 # Space Complexity: O(1)
-from typing import List
-
-
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         shortest = min(strs, key=len)
