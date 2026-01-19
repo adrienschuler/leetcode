@@ -11,7 +11,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [242. Valid Anagram](neetcode250/arrays-hashing/03-242-valid-anagram.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap | $\textcolor{yellow}{\textsf{10min}}$ |
 | Arrays & Hashing | [1. Two Sum](neetcode250/arrays-hashing/04-1-two-sum.py) | $\textcolor{green}{\textsf{Easy}}$ | HashMap | $\textcolor{red}{\textsf{Try Again}}$ |
 | Arrays & Hashing | [14. Longest Common Prefix](neetcode250/arrays-hashing/05-14-longest-common-prefix.py) | $\textcolor{green}{\textsf{Easy}}$ | String | $\textcolor{red}{\textsf{Try Again}}$ |
-| Arrays & Hashing | [49. Group Anagrams](neetcode250/arrays-hashing/06-49-group-anagrams.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap |  |
+| Arrays & Hashing | [49. Group Anagrams](neetcode250/arrays-hashing/06-49-group-anagrams.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap | $\textcolor{red}{\textsf{Try Again}}$ |
 | Arrays & Hashing | [27. Remove Element](neetcode250/arrays-hashing/07-27-remove-element.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers |  |
 | Arrays & Hashing | [169. Majority Element](neetcode250/arrays-hashing/08-169-majority-element.py) | $\textcolor{green}{\textsf{Easy}}$ | Boyer-Moore |  |
 | Arrays & Hashing | [705. Design HashSet](neetcode250/arrays-hashing/09-705-design-hashset.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashSet Design |  |

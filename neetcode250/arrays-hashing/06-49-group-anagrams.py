@@ -17,3 +17,20 @@ class Solution:
             anagrams[''.join(sorted(s))].append(s)
 
         return list(anagrams.values())
+
+# Approach: Frequency count as a key in a hash map
+# Time Complexity: O(n * k) where n is the number of strings and k is the maximum length of a string
+# Space Complexity: O(n)
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        res = defaultdict(list)
+
+        for s in strs:
+            count = [0] * 26 # a - z
+
+            for c in s:
+                count[ord(c) - ord("a")] += 1
+
+            res[tuple(count)].append(s)
+
+        return list(res.values())
