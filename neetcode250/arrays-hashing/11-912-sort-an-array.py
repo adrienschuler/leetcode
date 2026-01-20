@@ -19,14 +19,20 @@ class Solution:
         n = len(nums)
 
         for i in range(n):
-            flag = True
+            swapped = False
 
             for j in range(n - i - 1):
                 if nums[j] > nums[j + 1]:
                     nums[j], nums[j + 1] = nums[j + 1], nums[j]
-                    flag = False
+                    swapped = True
 
-            if flag:
+            if not swapped:
                 break
 
         return nums
+
+# TODO:
+# Merge sort (divide and conquer)
+# Quick sort
+# Heap sort
+# BST (binary search tree)
