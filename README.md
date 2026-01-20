@@ -14,9 +14,9 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [49. Group Anagrams](neetcode250/arrays-hashing/06-49-group-anagrams.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap | $\textcolor{yellow}{\textsf{9min}}$ |
 | Arrays & Hashing | [27. Remove Element](neetcode250/arrays-hashing/07-27-remove-element.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{7min}}$ |
 | Arrays & Hashing | [169. Majority Element](neetcode250/arrays-hashing/08-169-majority-element.py) | $\textcolor{green}{\textsf{Easy}}$ | Boyer-Moore | $\textcolor{yellow}{\textsf{3min}}$ |
-| Arrays & Hashing | [705. Design HashSet](neetcode250/arrays-hashing/09-705-design-hashset.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashSet Design |  |
-| Arrays & Hashing | [706. Design HashMap](neetcode250/arrays-hashing/10-706-design-hashmap.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap Design |  |
-| Arrays & Hashing | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Merge/Quick Sort |  |
+| Arrays & Hashing | [705. Design HashSet](neetcode250/arrays-hashing/09-705-design-hashset.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashSet Design | $\textcolor{red}{\textsf{Try Again}}$ |
+| Arrays & Hashing | [706. Design HashMap](neetcode250/arrays-hashing/10-706-design-hashmap.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap Design | $\textcolor{red}{\textsf{Try Again}}$ |
+| Arrays & Hashing | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Merge/Quick Sort | $\textcolor{red}{\textsf{Try Again}}$ |
 | Linked List | [206. Reverse Linked List](neetcode250/linked-list/01-206-reverse-linked-list.py) | $\textcolor{green}{\textsf{Easy}}$ | Iterative/Recursive | $\textcolor{red}{\textsf{Try Again}}$ |
 | Maths & Geometry | [13. Roman to Integer](neetcode250/maths-geometry/10-13-roman-to-integer.py) | $\textcolor{green}{\textsf{Easy}}$ | Math, String | $\textcolor{red}{\textsf{Try Again}}$ |
 | Two Pointers | [125. Valid Palindrome](neetcode250/two-pointers/02-125-valid-palindrome.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{red}{\textsf{Try Again}}$ |
