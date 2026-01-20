@@ -68,7 +68,6 @@ class MyHashSet:
             cur = cur.next
         cur.next = ListNode(key)
 
-
     def remove(self, key: int) -> None:
         cur = self.set[key % len(self.set)]
         while cur.next:
