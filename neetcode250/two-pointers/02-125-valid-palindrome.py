@@ -37,3 +37,8 @@ class Solution:
             r -= 1
 
         return True
+
+def alnum(c):
+    return (ord("A") <= ord(c) <= ord("Z")
+        or ord("a") <= ord(c) <= ord("z")
+        or ord("0") <= ord(c) <= ord("9"))
