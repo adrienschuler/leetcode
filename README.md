@@ -22,6 +22,9 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [344. Reverse String](neetcode250/two-pointers/01-344-reverse-string.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{2min}}$ |
 | Two Pointers | [125. Valid Palindrome](neetcode250/two-pointers/02-125-valid-palindrome.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{3min}}$ |
 | Two Pointers | [680. Valid Palindrome II](neetcode250/two-pointers/03-680-valid-palindrome-ii.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{red}{\textsf{Try Again}}$ |
+| Two Pointers | [1768. Merge Strings Alternately](neetcode250/two-pointers/04-1768-merge-strings-alternately.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{red}{\textsf{Try Again}}$ |
+| Two Pointers | [88. Merge Sorted Array](neetcode250/two-pointers/05-88-merge-sorted-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{red}{\textsf{Try Again}}$ |
+| Two Pointers | [26. Remove Duplicates From Sorted Array](neetcode250/two-pointers/06-26-remove-duplicates-from-sorted-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{red}{\textsf{Try Again}}$ |
 
 ## SQL 50
 
