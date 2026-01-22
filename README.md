@@ -38,6 +38,7 @@ This repository contains my solutions to LeetCode problems.
 | Topic | Algorithm | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity (Worst) | Related Problems |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | *Sorting* | Bubble Sort | O(n^2) | O(n^2) | O(1) | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) |
+| *Sorting* | Merge Sort | O(n log n) | O(n log n) | O(n) | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) |
+| *Sorting* | Quick Sort | O(n log n) | O(n^2) | O(log n) | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py), [75. Sort Colors](neetcode250/arrays-hashing/12-75-sort-colors.py) |
 | *Searching* | Linear Search | O(n) | O(n) | O(1) | [217. Contains Duplicate](neetcode250/arrays-hashing/02-217-contains-duplicate.py), [27. Remove Element](neetcode250/arrays-hashing/07-27-remove-element.py) |
-| *Searching* | Binary Search | O(log n) | O(log n) | O(1) |  |
 | *Voting* | Booyer-Moore | O(n) | O(n) | O(1) | [169. Majority Element](neetcode250/arrays-hashing/08-169-majority-element.py) |
