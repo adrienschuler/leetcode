@@ -16,14 +16,15 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [169. Majority Element](neetcode250/arrays-hashing/08-169-majority-element.py) | $\textcolor{green}{\textsf{Easy}}$ | Boyer-Moore | $\textcolor{yellow}{\textsf{3min}}$ |
 | Arrays & Hashing | [705. Design HashSet](neetcode250/arrays-hashing/09-705-design-hashset.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashSet Design | $\textcolor{yellow}{\textsf{5min}}$ |
 | Arrays & Hashing | [706. Design HashMap](neetcode250/arrays-hashing/10-706-design-hashmap.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap Design | $\textcolor{yellow}{\textsf{8min}}$ |
-| Arrays & Hashing | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Merge/Quick Sort | $\textcolor{red}{\textsf{Try Again}}$ |
+| Arrays & Hashing | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Merge Sort | $\textcolor{red}{\textsf{Try Again}}$ |
+| Arrays & Hashing | [75. Sort Colors](neetcode250/arrays-hashing/12-75-sort-colors.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Quick Sort | $\textcolor{red}{\textsf{Try Again}}$ |
 | Linked List | [206. Reverse Linked List](neetcode250/linked-list/01-206-reverse-linked-list.py) | $\textcolor{green}{\textsf{Easy}}$ | Iterative/Recursive | $\textcolor{yellow}{\textsf{5min}}$ |
 | Maths & Geometry | [13. Roman to Integer](neetcode250/maths-geometry/10-13-roman-to-integer.py) | $\textcolor{green}{\textsf{Easy}}$ | Math, String | $\textcolor{red}{\textsf{Try Again}}$ |
 | Two Pointers | [344. Reverse String](neetcode250/two-pointers/01-344-reverse-string.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{2min}}$ |
 | Two Pointers | [125. Valid Palindrome](neetcode250/two-pointers/02-125-valid-palindrome.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{3min}}$ |
-| Two Pointers | [680. Valid Palindrome II](neetcode250/two-pointers/03-680-valid-palindrome-ii.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{red}{\textsf{Try Again}}$ |
+| Two Pointers | [680. Valid Palindrome II](neetcode250/two-pointers/03-680-valid-palindrome-ii.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{4min}}$ |
 | Two Pointers | [1768. Merge Strings Alternately](neetcode250/two-pointers/04-1768-merge-strings-alternately.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{5min}}$ |
-| Two Pointers | [88. Merge Sorted Array](neetcode250/two-pointers/05-88-merge-sorted-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{red}{\textsf{Try Again}}$ |
+| Two Pointers | [88. Merge Sorted Array](neetcode250/two-pointers/05-88-merge-sorted-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{10min}}$ |
 | Two Pointers | [26. Remove Duplicates From Sorted Array](neetcode250/two-pointers/06-26-remove-duplicates-from-sorted-array.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{10min}}$ |
 
 ## SQL 50
