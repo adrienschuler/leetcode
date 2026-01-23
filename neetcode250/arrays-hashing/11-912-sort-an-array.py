@@ -15,29 +15,45 @@ You must solve the problem without using any built-in functions in O(nlog(n)) ti
 
 from typing import List
 
-# Approach: Bubble Sort
-# Time complexity: O(n^2)
-# Space complexity: O(1)
+
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         # return self.bubbleSort(nums)
+        # return self.insertionSort(nums)
         return self.mergeSort(nums)
 
-    def bubbleSort(self, nums: List[int]) -> List[int]:
-        n = len(nums)
+    # Approach: Bubble Sort
+    # Time complexity: O(n^2)
+    # Space complexity: O(1)
+    def bubbleSort(self, arr: List[int]) -> List[int]:
+        n = len(arr)
 
         for i in range(n):
             swapped = False
 
             for j in range(n - i - 1):
-                if nums[j] > nums[j + 1]:
-                    nums[j], nums[j + 1] = nums[j + 1], nums[j]
+                if arr[j] > arr[j + 1]:
+                    arr[j], arr[j + 1] = arr[j + 1], arr[j]
                     swapped = True
 
             if not swapped:
                 break
 
-        return nums
+        return arr
+
+    # Approach: Insertion Sort
+    # Time complexity: O(n^2)
+    # Space complexity: O(1)
+    def insertionSort(self, arr: List[int]) -> List[int]:
+        n = len(arr)
+
+        for i in range(1, n):
+            for j in range(i, 0, -1):
+                if arr[j - 1] > arr[j]:
+                    arr[j - 1], arr[j] = arr[j], arr[j - 1]
+                else:
+                    break
+        return arr
 
     # Approach: Merge Sort (Divide and Conquer)
     # Time complexity: O(n log n) Divide step takes O(log n) and Merge step takes O(n)
@@ -75,6 +91,7 @@ class Solution:
             r, i = r + 1, i + 1
 
         return sorted_arr
+
 
 
 def main() -> None:
