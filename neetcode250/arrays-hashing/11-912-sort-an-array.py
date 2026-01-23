@@ -8,12 +8,20 @@ You must solve the problem without using any built-in functions in O(nlog(n)) ti
 
 # Topics: Sorting, Divide and Conquer, Merge Sort, Bubble Sort
 
+# TODO:
+# Quick sort
+# Heap sort
+# BST (Binary Search Tree)
+
+from typing import List
+
 # Approach: Bubble Sort
 # Time complexity: O(n^2)
 # Space complexity: O(1)
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
-        return self.bubbleSort(nums)
+        # return self.bubbleSort(nums)
+        return self.mergeSort(nums)
 
     def bubbleSort(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -31,7 +39,21 @@ class Solution:
 
         return nums
 
+    # Approach: Merge Sort (Divide and Conquer)
+    # Time complexity: O(n log n) Divide step takes O(log n) and Merge step takes O(n)
+    # Space complexity: O(n) because of the extra arrays created during the merge process (not in-place)
+    def mergeSort(self, arr: List[int]) -> List[int]:
+        print("mergeSort:", arr)
+        n = len(arr)
+        if n == 1: return arr
+        m = n // 2
+        L = self.mergeSort(arr[:m])
+        R = self.mergeSort(arr[m:])
+
+        return self.mergeSortedArrays(L, R)
+
     def mergeSortedArrays(self, L: List[int], R: List[int]) -> List[int]:
+        print("mergeSortedArrays:", L, R)
         l = r = i = 0
         L_len, R_len = len(L), len(R)
         sorted_arr = [0] * (L_len + R_len)
@@ -54,19 +76,16 @@ class Solution:
 
         return sorted_arr
 
-    # Approach: Merge Sort (Divide and Conquer)
-    # Time complexity: O(n log n)
-    # Space complexity: O(n) because of the extra arrays created during the merge process (not in-place)
-    def mergeSort(self, arr: List[int]) -> List[int]:
-        if len(arr) == 1: return arr
-        m = len(arr) // 2
-        L = self.mergeSort(arr[:m])
-        R = self.mergeSort(arr[m:])
 
-        return self.mergeSortedArrays(L, R)
+def main() -> None:
+    solution = Solution()
+
+    # nums = [5, 2, 3, 1]
+    # print(solution.sortArray(nums))  # [1, 2, 3, 5]
+
+    nums = [5, 1, 1, 2, 0, 0]
+    print(solution.sortArray(nums))  # [0, 0, 1, 1, 2, 5]
 
 
-# TODO:
-# Quick sort
-# Heap sort
-# BST (binary search tree)
+if __name__ == "__main__":
+    main()
