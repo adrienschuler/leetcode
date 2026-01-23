@@ -18,7 +18,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [706. Design HashMap](neetcode250/arrays-hashing/10-706-design-hashmap.py) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap Design | $\textcolor{orange}{\textsf{Hard}}$ |
 | Arrays & Hashing | [912. Sort an Array](neetcode250/arrays-hashing/11-912-sort-an-array.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Merge Sort | $\textcolor{red}{\textsf{Again}}$ |
 | Arrays & Hashing | [75. Sort Colors](neetcode250/arrays-hashing/12-75-sort-colors.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Quick Sort | $\textcolor{red}{\textsf{Again}}$ |
-| Arrays & Hashing | [347. Sort Colors](neetcode250/arrays-hashing/13-347-top-k-frequent-elements.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Bucket Sort | $\textcolor{red}{\textsf{Again}}$ |
+| Arrays & Hashing | [347. Top K Frequent Elements](neetcode250/arrays-hashing/13-347-top-k-frequent-elements.py) | $\textcolor{yellow}{\textsf{Medium}}$ | Bucket Sort | $\textcolor{red}{\textsf{Again}}$ |
 | Linked List | [206. Reverse Linked List](neetcode250/linked-list/01-206-reverse-linked-list.py) | $\textcolor{green}{\textsf{Easy}}$ | Iterative/Recursive | $\textcolor{yellow}{\textsf{Good}}$ |
 | Maths & Geometry | [13. Roman to Integer](neetcode250/maths-geometry/10-13-roman-to-integer.py) | $\textcolor{green}{\textsf{Easy}}$ | Math, String | $\textcolor{red}{\textsf{Again}}$ |
 | Two Pointers | [344. Reverse String](neetcode250/two-pointers/01-344-reverse-string.py) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{green}{\textsf{Easy}}$ |
