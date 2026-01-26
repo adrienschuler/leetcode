@@ -4,6 +4,8 @@ Easy
 Given a string s, return true if the s can be palindrome after deleting at most one character from it.
 """
 
+# Topics: Two Pointers, String
+
 # Approach: Two Pointers
 # Time Complexity: O(n)
 # Space Complexity: O(n): for the substring slices - can be optimized to O(1) by using helper function with indices

@@ -89,7 +89,7 @@ class Solution:
     def quickSort(self, arr: List[int]) -> List[int]:
         return self.quickSortHelper(arr, 0, len(arr) - 1)
 
-    def quickSortHelper(self, arr: List[int], low: int, high: int) -> None:
+    def quickSortHelper(self, arr: List[int], low: int, high: int) -> List[int]:
         if low < high:
             pi = self.partition(arr, low, high)
             self.quickSortHelper(arr, low, pi - 1)
