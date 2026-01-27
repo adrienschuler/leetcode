@@ -20,6 +20,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | Quick Sort | $\textcolor{red}{\textsf{Again}}$ |
 | Arrays & Hashing | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | Bucket Sort | $\textcolor{red}{\textsf{Again}}$ |
 | Arrays & Hashing | [14. Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode/) | $\textcolor{yellow}{\textsf{Medium}}$ | Two Pointers | $\textcolor{red}{\textsf{Again}}$ |
+| Arrays & Hashing | [15. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | Prefix | $\textcolor{red}{\textsf{Again}}$ |
 | Linked List | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | $\textcolor{green}{\textsf{Easy}}$ | Iterative/Recursive | $\textcolor{yellow}{\textsf{Good}}$ |
 | Maths & Geometry | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | Math, String | $\textcolor{red}{\textsf{Again}}$ |
 | Two Pointers | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{green}{\textsf{Easy}}$ |
@@ -31,6 +32,7 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [07. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | $\textcolor{yellow}{\textsf{Medium}}$ | Two Pointers | $\textcolor{yellow}{\textsf{Good}}$ |
 | Sliding Window | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | Sliding Window | $\textcolor{red}{\textsf{Again}}$ |
 | Sliding Window | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | Sliding Window | $\textcolor{orange}{\textsf{Hard}}$ |
+| Binary Search | [704. Binary Search](https://leetcode.com/problems/binary-search/) | $\textcolor{green}{\textsf{Easy}}$ | Binary Search | $\textcolor{yellow}{\textsf{Good}}$ |
 
 
 ## SQL 50
@@ -49,4 +51,5 @@ This repository contains my solutions to LeetCode problems.
 | *Sorting* | Merge Sort | O(n log n) | O(n log n) | O(n) | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) |
 | *Sorting* | Quick Sort | O(n log n) | O(n^2) | O(log n) | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/), [75. Sort Colors](https://leetcode.com/problems/sort-colors/) |
 | *Searching* | Linear Search | O(n) | O(n) | O(1) | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/), [27. Remove Element](https://leetcode.com/problems/remove-element/) |
+| *Searching* | Binary Search | O(log n) | O(log n) | O(1) | [704. Binary Search](https://leetcode.com/problems/binary-search/) |
 | *Voting* | Booyer-Moore | O(n) | O(n) | O(1) | [169. Majority Element](https://leetcode.com/problems/majority-element/) |
