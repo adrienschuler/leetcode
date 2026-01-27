@@ -15,16 +15,13 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
 # Space Complexity: O(1)
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        l, r = 0, 1
-        maxP = 0
+        l = maxP = 0
 
-        while r < len(prices):
+        for r in range(1, len(prices)):
             if prices[l] < prices[r]:
                 profit = prices[r] - prices[l]
-                if profit > maxP:
-                    maxP = profit
+                maxP = max(maxP, profit)
             else:
                 l = r
-            r += 1
 
         return maxP

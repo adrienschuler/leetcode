@@ -29,7 +29,7 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{Good}}$ |
 | Two Pointers | [26. Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{Good}}$ |
 | Sliding Window | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | Sliding Window | |
-| Sliding Window | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | Sliding Window | |
+| Sliding Window | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | Sliding Window | $\textcolor{orange}{\textsf{Hard}}$ |
 
 
 ## SQL 50
