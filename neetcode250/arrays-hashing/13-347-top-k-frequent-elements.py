@@ -21,7 +21,7 @@ class Solution:
             freq[c].append(n)
 
         res = []
-        for i in range(len(freq) -1, 0, -1):
+        for i in range(len(freq) - 1, 0, -1):
             for c in freq[i]:
                 res.append(c)
                 if len(res) == k:

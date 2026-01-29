@@ -4,58 +4,58 @@ This repository contains my solutions to LeetCode problems.
 
 ## NeetCode 250
 
-| Topic | Problem | Difficulty | Main Algorithm | Feel |
-|---|---|:---:|---|---|
-| Arrays & Hashing | [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | $\textcolor{green}{\textsf{Easy}}$ | Array | $\textcolor{green}{\textsf{Easy}}$ |
-| Arrays & Hashing | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | $\textcolor{green}{\textsf{Easy}}$ | HashSet | $\textcolor{green}{\textsf{Easy}}$ |
-| Arrays & Hashing | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | $\textcolor{green}{\textsf{Easy}}$ | HashMap | $\textcolor{yellow}{\textsf{Good}}$ |
-| Arrays & Hashing | [1. Two Sum](https://leetcode.com/problems/two-sum/) | $\textcolor{green}{\textsf{Easy}}$ | HashMap | $\textcolor{yellow}{\textsf{Good}}$ |
-| Arrays & Hashing | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | String | $\textcolor{yellow}{\textsf{Good}}$ |
-| Arrays & Hashing | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap | $\textcolor{orange}{\textsf{Hard}}$ |
-| Arrays & Hashing | [27. Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{orange}{\textsf{Hard}}$ |
-| Arrays & Hashing | [169. Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | Boyer-Moore | $\textcolor{green}{\textsf{Easy}}$ |
-| Arrays & Hashing | [705. Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Medium}}$ | HashSet Design | $\textcolor{orange}{\textsf{Hard}}$ |
-| Arrays & Hashing | [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Medium}}$ | HashMap Design | $\textcolor{orange}{\textsf{Hard}}$ |
-| Arrays & Hashing | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | Merge Sort | $\textcolor{red}{\textsf{Again}}$ |
-| Arrays & Hashing | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | Quick Sort | $\textcolor{red}{\textsf{Again}}$ |
-| Arrays & Hashing | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | Bucket Sort | $\textcolor{red}{\textsf{Again}}$ |
-| Arrays & Hashing | [659. Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode/) | $\textcolor{yellow}{\textsf{Medium}}$ | Two Pointers | $\textcolor{red}{\textsf{Again}}$ |
-| Arrays & Hashing | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | Prefix | $\textcolor{red}{\textsf{Again}}$ |
-| Stack | [682. Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{green}{\textsf{Easy}}$ |
-| Stack | [20. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{green}{\textsf{Easy}}$ |
-| Stack | [225. Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{yellow}{\textsf{Good}}$ |
-| Stack | [232. Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{orange}{\textsf{Hard}}$ |
-| Stack | [155. Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | Stack | $\textcolor{Orange}{\textsf{Hard}}$ |
-| Stack | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | $\textcolor{yellow}{\textsf{Medium}}$ | Stack | $\textcolor{Orange}{\textsf{Hard}}$ |
-| Linked List | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | $\textcolor{green}{\textsf{Easy}}$ | Iterative/Recursive | $\textcolor{yellow}{\textsf{Good}}$ |
-| Maths & Geometry | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | Math, String | $\textcolor{red}{\textsf{Again}}$ |
-| Two Pointers | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{green}{\textsf{Easy}}$ |
-| Two Pointers | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{green}{\textsf{Easy}}$ |
-| Two Pointers | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{Good}}$ |
-| Two Pointers | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{Good}}$ |
-| Two Pointers | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{Good}}$ |
-| Two Pointers | [26. Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{yellow}{\textsf{Good}}$ |
-| Two Pointers | [07. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | $\textcolor{yellow}{\textsf{Medium}}$ | Two Pointers | $\textcolor{yellow}{\textsf{Good}}$ |
-| Sliding Window | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | Sliding Window | $\textcolor{red}{\textsf{Again}}$ |
-| Sliding Window | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | Sliding Window | $\textcolor{orange}{\textsf{Hard}}$ |
-| Binary Search | [704. Binary Search](https://leetcode.com/problems/binary-search/) | $\textcolor{green}{\textsf{Easy}}$ | Binary Search | $\textcolor{yellow}{\textsf{Good}}$ |
+| Topic | Problem | Difficulty | Feel |
+|---|---|:---:|---|
+| Arrays & Hashing | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Arrays & Hashing | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Arrays & Hashing | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Arrays & Hashing | [Two Sum](https://leetcode.com/problems/two-sum/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
+| Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
+| Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
+| Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
+| Arrays & Hashing | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Arrays & Hashing | [Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Arrays & Hashing | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Arrays & Hashing | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Arrays & Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Stack | [Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Stack | [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
+| Stack | [Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
+| Stack | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
+| Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Reverse String](https://leetcode.com/problems/reverse-string/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Two Pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Two Pointers | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
+| Sliding Window | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
+| Sliding Window | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
+| Binary Search | [Binary Search](https://leetcode.com/problems/binary-search/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Maths & Geometry | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
 
 
 ## SQL 50
 
 | Topic | Problem | Difficulty | Feel |
 |---|---|:---:|---|
-| Filtering | [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | $\textcolor{green}{\textsf{Easy}}$ |  |
+| Filtering | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | $\textcolor{green}{\textsf{Easy}}$ |  |
 
 ## Algorithms & Complexities
 
-| Topic | Algorithm | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity (Worst) | Related Problems |
+| Topic | Algorithm | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity | Related Problems |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| *Sorting* | Bubble Sort | O(n^2) | O(n^2) | O(1) | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) |
-| *Sorting* | Insertion Sort | O(n^2) | O(n^2) | O(1) | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) |
-| *Sorting* | Bucket Sort | O(n + k) | O(n^2) | O(n + k) |[912. Sort an Array](https://leetcode.com/problems/sort-an-array/) |
-| *Sorting* | Merge Sort | O(n log n) | O(n log n) | O(n) | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) |
-| *Sorting* | Quick Sort | O(n log n) | O(n^2) | O(log n) | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/), [75. Sort Colors](https://leetcode.com/problems/sort-colors/) |
-| *Searching* | Linear Search | O(n) | O(n) | O(1) | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/), [27. Remove Element](https://leetcode.com/problems/remove-element/) |
-| *Searching* | Binary Search | O(log n) | O(log n) | O(1) | [704. Binary Search](https://leetcode.com/problems/binary-search/) |
-| *Voting* | Booyer-Moore | O(n) | O(n) | O(1) | [169. Majority Element](https://leetcode.com/problems/majority-element/) |
+| *Sorting* | Bubble Sort | O(n^2) | O(n^2) | O(1) | [Sort an Array](https://leetcode.com/problems/sort-an-array/) |
+| *Sorting* | Insertion Sort | O(n^2) | O(n^2) | O(1) | [Sort an Array](https://leetcode.com/problems/sort-an-array/) |
+| *Sorting* | Bucket Sort | O(n + k) | O(n^2) | O(n + k) |[Sort an Array](https://leetcode.com/problems/sort-an-array/) |
+| *Sorting* | Merge Sort | O(n log n) | O(n log n) | O(n) | [Sort an Array](https://leetcode.com/problems/sort-an-array/) |
+| *Sorting* | Quick Sort | O(n log n) | O(n^2) | O(log n) | [Sort an Array](https://leetcode.com/problems/sort-an-array/), [Sort Colors](https://leetcode.com/problems/sort-colors/) |
+| *Searching* | Linear Search | O(n) | O(n) | O(1) | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/), [Remove Element](https://leetcode.com/problems/remove-element/) |
+| *Searching* | Binary Search | O(log n) | O(log n) | O(1) | [Binary Search](https://leetcode.com/problems/binary-search/) |
+| *Voting* | Booyer-Moore | O(n) | O(n) | O(1) | [Majority Element](https://leetcode.com/problems/majority-element/) |
