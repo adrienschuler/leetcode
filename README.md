@@ -23,7 +23,9 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | Prefix | $\textcolor{red}{\textsf{Again}}$ |
 | Stack | [682. Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{green}{\textsf{Easy}}$ |
 | Stack | [20. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{green}{\textsf{Easy}}$ |
-| Stack | [225. Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{green}{\textsf{Easy}}$ |
+| Stack | [225. Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{yellow}{\textsf{Good}}$ |
+| Stack | [232. Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | Stack | $\textcolor{orange}{\textsf{Hard}}$ |
+| Stack | [155. Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | Stack | $\textcolor{Orange}{\textsf{Hard}}$ |
 | Linked List | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | $\textcolor{green}{\textsf{Easy}}$ | Iterative/Recursive | $\textcolor{yellow}{\textsf{Good}}$ |
 | Maths & Geometry | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | Math, String | $\textcolor{red}{\textsf{Again}}$ |
 | Two Pointers | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | $\textcolor{green}{\textsf{Easy}}$ | Two Pointers | $\textcolor{green}{\textsf{Easy}}$ |
