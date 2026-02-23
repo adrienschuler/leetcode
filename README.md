@@ -8,8 +8,8 @@ This repository contains my solutions to LeetCode problems.
 |---|---|:---:|---|
 | Arrays & Hashing | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Arrays & Hashing | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
-| Arrays & Hashing | [Two Sum](https://leetcode.com/problems/two-sum/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Arrays & Hashing | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Arrays & Hashing | [Two Sum](https://leetcode.com/problems/two-sum/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
@@ -40,8 +40,8 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Two Pointers | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Sliding Window | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
-| Sliding Window | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
-| Binary Search | [Binary Search](https://leetcode.com/problems/binary-search/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Sliding Window | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Binary Search | [Binary Search](https://leetcode.com/problems/binary-search/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Maths & Geometry | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
 
 
