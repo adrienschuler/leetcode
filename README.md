@@ -10,7 +10,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Two Sum](https://leetcode.com/problems/two-sum/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |

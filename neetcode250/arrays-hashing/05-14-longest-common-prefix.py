@@ -26,12 +26,10 @@ class Solution:
 # Space Complexity: O(1)
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
-        res = ""
-
-        for i in range(len(strs[0])):
-            for s in strs:
-                if i == len(s) or s[i] != strs[0][i]:
-                    return res
-            res += strs[0][i]
-
-        return res
+        prefix = ""
+        for i, c in enumerate(strs[0]):
+            for s in strs[1:]:
+                if len(s) == i or s[i] != c:
+                    return prefix
+            prefix += c
+        return prefix
