@@ -18,7 +18,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Arrays & Hashing | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Arrays & Hashing | [Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Arrays & Hashing | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Arrays & Hashing | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Arrays & Hashing | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Arrays & Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Arrays & Hashing | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |

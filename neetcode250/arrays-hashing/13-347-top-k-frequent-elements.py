@@ -26,3 +26,20 @@ class Solution:
                 res.append(c)
                 if len(res) == k:
                     return res
+
+# Approach: Heap
+# Time Complexity: O(n log k)
+# Space Complexity: O(n)
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        counts = Counter(nums)
+        hq = []
+
+        for num, freq in counts.items():
+            heapq.heappush(hq, (freq, num))
+            if len(hq) > k:
+                heapq.heappop(hq)
+
+        return [num for _, num in hq]
+
+    assert topKFrequent(nums=[1,2,3,4,4,5,2,2], k=2) == [2, 4]
