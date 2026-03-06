@@ -47,7 +47,7 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | $\textcolor{red}{\textsf{Hard}}$ | |
 | Sliding Window | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
 | Sliding Window | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
+| Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Sliding Window | [Maximum Sum Subarray of Size K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Sliding Window | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | $\textcolor{red}{\textsf{Hard}}$ | |
 | Binary Search | [Binary Search](https://leetcode.com/problems/binary-search/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
