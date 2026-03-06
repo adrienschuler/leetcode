@@ -25,6 +25,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Arrays & Hashing | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Arrays & Hashing | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Stack | [Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
