@@ -4,13 +4,13 @@ This repository contains my solutions to LeetCode problems.
 
 ## NeetCode 250
 
-| Topic | Problem | Difficulty | Feel |
+| Topic | Problem | Difficulty | Rating |
 |---|---|:---:|---|
 | Arrays & Hashing | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Two Sum](https://leetcode.com/problems/two-sum/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
@@ -61,7 +61,7 @@ This repository contains my solutions to LeetCode problems.
 
 ## SQL 50
 
-| Topic | Problem | Difficulty | Feel |
+| Topic | Problem | Difficulty | Rating |
 |---|---|:---:|---|
 | Filtering | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | $\textcolor{green}{\textsf{Easy}}$ |  |
 
