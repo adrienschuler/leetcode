@@ -27,3 +27,15 @@ class Solution:
                 r += 1
 
         return "".join(merged)
+
+# Approach: Zip
+# Time Complexity: O(m + n)
+# Space Complexity: O(m + n)
+class Solution:
+    def mergeAlternately(self, word1: str, word2: str) -> str:
+        merged = []
+        for char1, char2 in zip(word1, word2):
+            merged.append(char1)
+            merged.append(char2)
+        i = min(len(word1), len(word2))
+        return "".join(merged) + word1[i:] + word2[i:]

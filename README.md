@@ -28,14 +28,14 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Stack | [Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
-| Stack | [Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
+| Stack | [Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Stack | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Stack | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Stack | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
-| Linked List | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Linked List | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
 | Two Pointers | [Reverse String](https://leetcode.com/problems/reverse-string/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Two Pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Two Pointers | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
@@ -46,7 +46,7 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Two Pointers | [3Sum](https://leetcode.com/problems/3sum/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Two Pointers | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | $\textcolor{red}{\textsf{Hard}}$ | |
-| Sliding Window | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
+| Sliding Window | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Sliding Window | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Sliding Window | [Maximum Sum Subarray of Size K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
