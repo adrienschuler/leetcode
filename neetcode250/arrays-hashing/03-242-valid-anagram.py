@@ -1,4 +1,5 @@
 """
+242. Valid Anagram
 https://leetcode.com/problems/valid-anagram
 Easy
 
@@ -9,7 +10,7 @@ Given two strings s and t, return true if t is an anagram of s, and false otherw
 
 # Approach: Frequency Counter
 # Time Complexity: O(n)
-# Space Complexity: O(1) - since the character set is limited
+# Space Complexity: O(n)
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
@@ -27,3 +28,17 @@ class Solution:
                 return False
 
         return True
+
+
+# Approach: Frequency Counter with Array
+# Time Complexity: O(n)
+# Space Complexity: O(1) - since the character set is limited
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        freq = [0] * 26
+        for a, b in zip(s, t):
+            freq[ord(a) - ord('a')] += 1
+            freq[ord(b) - ord('a')] -= 1
+        return all(f == 0 for f in freq)
