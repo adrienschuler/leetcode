@@ -1,4 +1,5 @@
 """
+680. Valid Palindrome II
 https://leetcode.com/problems/valid-palindrome-ii/description/
 Easy
 Given a string s, return true if the s can be palindrome after deleting at most one character from it.
@@ -20,4 +21,23 @@ class Solution:
                         or skipR == skipR[::-1])
             l, r = l + 1, r - 1
 
+        return True
+
+# Approach: Two Pointers with Helper Function
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+class Solution:
+    def validPalindrome(self, s: str) -> bool:
+        def is_palindrome(l, r):
+            while l < r:
+                if s[l] != s[r]:
+                    return False
+                l, r = l + 1, r - 1
+            return True
+
+        l, r = 0, len(s) - 1
+        while l < r:
+            if s[l] != s[r]:
+                return is_palindrome(l + 1, r) or is_palindrome(l, r - 1)
+            l, r = l + 1, r - 1
         return True

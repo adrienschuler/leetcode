@@ -10,7 +10,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Two Sum](https://leetcode.com/problems/two-sum/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
+| Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
@@ -25,7 +25,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Arrays & Hashing | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
-| Arrays & Hashing | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
+| Arrays & Hashing | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Stack | [Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
@@ -37,11 +37,11 @@ This repository contains my solutions to LeetCode problems.
 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Linked List | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
 | Two Pointers | [Reverse String](https://leetcode.com/problems/reverse-string/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Two Pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Two Pointers | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Two Pointers | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Two Pointers | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
-| Two Pointers | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Two Pointers | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Two Pointers | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Two Pointers | [3Sum](https://leetcode.com/problems/3sum/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
