@@ -13,9 +13,9 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
 | Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
-| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
+| Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Arrays & Hashing | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Arrays & Hashing | [Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Arrays & Hashing | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
@@ -23,11 +23,11 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Arrays & Hashing | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
+| Arrays & Hashing | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Arrays & Hashing | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Stack | [Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
+| Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Stack | [Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
