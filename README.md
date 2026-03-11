@@ -45,7 +45,7 @@ This repository contains my solutions to LeetCode problems.
 | BST | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | BST | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Two Pointers | [Reverse String](https://leetcode.com/problems/reverse-string/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Two Pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Two Pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Two Pointers | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Two Pointers | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Two Pointers | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
