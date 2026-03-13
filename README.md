@@ -13,8 +13,8 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
 | Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
-| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Easy}}$ | 🔴 |
+| Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Arrays & Hashing | [Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
@@ -22,14 +22,15 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
-| Arrays & Hashing | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Arrays & Hashing | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Arrays & Hashing | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Arrays & Hashing | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
+| Arrays & Hashing | [Ransom Note](https://leetcode.com/problems/ransom-note/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
 | Stack | [Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Stack | [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
+| Stack | [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Stack | [Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Stack | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Stack | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
@@ -37,7 +38,7 @@ This repository contains my solutions to LeetCode problems.
 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Linked List | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Linked List | [LRU Cache](https://leetcode.com/problems/lru-cache/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Trees | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
+| Trees | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Trees | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Trees | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | BST | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | $\textcolor{green}{\textsf{Easy}}$ | |
@@ -65,6 +66,7 @@ This repository contains my solutions to LeetCode problems.
 | Binary Search | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Heap / Priority Queue | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
 | Trie | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Trie | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
+| Trie | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Trie | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Maths & Geometry | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
+| Backtracking | [Word Search](https://leetcode.com/problems/word-search/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Maths & Geometry | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | |
