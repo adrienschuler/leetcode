@@ -17,9 +17,9 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Arrays & Hashing | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Arrays & Hashing | [Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Arrays & Hashing | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
-| Arrays & Hashing | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Arrays & Hashing | [Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
+| Arrays & Hashing | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
+| Arrays & Hashing | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
@@ -48,7 +48,7 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Two Pointers | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Two Pointers | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
-| Two Pointers | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
+| Two Pointers | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Two Pointers | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Two Pointers | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Two Pointers | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
@@ -56,32 +56,15 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | $\textcolor{red}{\textsf{Hard}}$ | |
 | Sliding Window | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Sliding Window | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Sliding Window | [Maximum Sum Subarray of Size K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Sliding Window | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | $\textcolor{red}{\textsf{Hard}}$ | |
 | Binary Search | [Binary Search](https://leetcode.com/problems/binary-search/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Binary Search | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Binary Search | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Binary Search | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
-| Heap / Priority Queue | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
-| Maths & Geometry | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | |
-
-
-## SQL 50
-
-| Topic | Problem | Difficulty | Rating |
-|---|---|:---:|---|
-| Filtering | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | $\textcolor{green}{\textsf{Easy}}$ |  |
-
-## Algorithms & Complexities
-
-| Topic | Algorithm | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity | Related Problems |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| *Sorting* | Bubble Sort | O(n^2) | O(n^2) | O(1) | [Sort an Array](https://leetcode.com/problems/sort-an-array/) |
-| *Sorting* | Insertion Sort | O(n^2) | O(n^2) | O(1) | [Sort an Array](https://leetcode.com/problems/sort-an-array/) |
-| *Sorting* | Bucket Sort | O(n + k) | O(n^2) | O(n + k) |[Sort an Array](https://leetcode.com/problems/sort-an-array/) |
-| *Sorting* | Merge Sort | O(n log n) | O(n log n) | O(n) | [Sort an Array](https://leetcode.com/problems/sort-an-array/) |
-| *Sorting* | Quick Sort | O(n log n) | O(n^2) | O(log n) | [Sort an Array](https://leetcode.com/problems/sort-an-array/), [Sort Colors](https://leetcode.com/problems/sort-colors/) |
-| *Searching* | Linear Search | O(n) | O(n) | O(1) | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/), [Remove Element](https://leetcode.com/problems/remove-element/) |
-| *Searching* | Binary Search | O(log n) | O(log n) | O(1) | [Binary Search](https://leetcode.com/problems/binary-search/) |
-| *Voting* | Booyer-Moore | O(n) | O(n) | O(1) | [Majority Element](https://leetcode.com/problems/majority-element/) |
+| Heap / Priority Queue | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
+| Trie | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Trie | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
+| Trie | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Maths & Geometry | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
