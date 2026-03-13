@@ -14,8 +14,8 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
 | Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
-| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
-| Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
+| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{yellow}{\textsf{Easy}}$ | 🔴 |
+| Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{yellow}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Arrays & Hashing | [Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
@@ -31,14 +31,14 @@ This repository contains my solutions to LeetCode problems.
 | Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Stack | [Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
-| Stack | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
+| Stack | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Stack | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Stack | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
-| Linked List | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Linked List | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Linked List | [LRU Cache](https://leetcode.com/problems/lru-cache/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Trees | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
-| Trees | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
+| Trees | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Trees | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | BST | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | $\textcolor{green}{\textsf{Easy}}$ | |
 | BST | [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
