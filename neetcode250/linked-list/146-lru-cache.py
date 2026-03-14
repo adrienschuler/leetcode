@@ -18,42 +18,43 @@ Topics: Hash Table, Linked List, Design, Doubly-Linked List
 """
 
 class Node:
-    def __init__(self, key: int, val: int, prev = None, nxt = None) -> None:
-        self.key, self.val = key, val
+    def __init__(self, key: int = -1, value: int = -1, prev = None, nxt = None):
+        self.key, self.value = key, value
         self.prev, self.next = prev, nxt
 
 class LRUCache:
-    def __init__(self, capacity: int) -> None:
+    def __init__(self, capacity: int):
         self.capacity = capacity
         self.cache = {}
-        self.head, self.tail = Node(0, 0), Node(0, 0)
-        self.head.next, self.tail.prev = self.tail, self.head
+        self.lru, self.mru = Node(), Node()
+        self.lru.next, self.mru.prev = self.mru, self.lru
 
-    def evict(self, node) -> None:
-        prev, nxt = node.prev, node.next
-        prev.next, nxt.prev = nxt, prev
+    def _evict(self, node: Node) -> None:
+        node.next.prev = node.prev
+        node.prev.next = node.next
 
-    def insert(self, node) -> None:
-        prev, nxt = self.tail.prev, self.tail
-        prev.next = nxt.prev = node
-        node.next, node.prev = nxt, prev
+    def _insert(self, node: Node) -> None:
+        node.next = self.mru
+        node.prev = self.mru.prev
+        node.prev.next = node
+        self.mru.prev = node
 
     def get(self, key: int) -> int:
         if key in self.cache:
-            self.evict(self.cache[key])
-            self.insert(self.cache[key])
-            return self.cache[key].val
+            self._evict(self.cache[key])
+            self._insert(self.cache[key])
+            return self.cache[key].value
         return -1
 
     def put(self, key: int, value: int) -> None:
         if key in self.cache:
-            self.evict(self.cache[key])
+            self._evict(self.cache[key])
         self.cache[key] = Node(key, value)
-        self.insert(self.cache[key])
+        self._insert(self.cache[key])
 
         if len(self.cache) > self.capacity:
-            lru = self.head.next
-            self.evict(lru)
+            lru = self.lru.next
+            self._evict(lru)
             del self.cache[lru.key]
 
 cache = LRUCache(2)
