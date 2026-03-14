@@ -68,5 +68,6 @@ This repository contains my solutions to LeetCode problems.
 | Trie | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Trie | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Trie | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Backtracking | [Subsets](https://leetcode.com/problems/subsets/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Backtracking | [Word Search](https://leetcode.com/problems/word-search/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Maths & Geometry | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | |

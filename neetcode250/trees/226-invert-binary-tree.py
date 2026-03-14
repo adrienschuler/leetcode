@@ -28,6 +28,20 @@ class Solution:
         self.invertTree(root.right)
         return root
 
+# Approach: iterative DFS
+# Time complexity: O(n) where n is the number of nodes in the tree, since we visit each node once.
+# Space complexity: O(h) where h is the height of the tree, due to the stack storing nodes
+class Solution:
+    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        if not root: return None
+        stack = [root]
+        while stack:
+            node = stack.pop()
+            node.left, node.right = node.right, node.left
+            if node.left: stack.append(node.left)
+            if node.right: stack.append(node.right)
+        return root
+
 # Approach: iterative BFS
 # Time complexity: O(n) where n is the number of nodes in the tree, since we visit each node once.
 # Space complexity: O(w) where w is the maximum width of the tree, due to the queue storing nodes at each level.
