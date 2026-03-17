@@ -18,10 +18,13 @@ previously added string. '.' can match any letter.
 # Approach: Trie + DFS
 # Time:  addWord O(n), search O(m * 26^k) where n is the length of the word, m is the length of the search word, and k is the number of '.' in the search word
 # Space: O(n) for the Trie
+from dataclasses import dataclass, field
+
+
+@dataclass
 class TrieNode:
-    def __init__(self):
-        self.children = {}
-        self.word = False
+    children: dict = field(default_factory=dict)
+    word: bool = False
 
 class WordDictionary:
     def __init__(self):
@@ -37,14 +40,14 @@ class WordDictionary:
 
     # Backtracking DFS
     def search(self, word: str) -> bool:
-        def dfs(node, i):
+        def dfs(node: TrieNode, i: int) -> bool:
             if i == len(word):
                 return node.word
             char = word[i]
             if char != '.':
-                if char not in node.children:
-                    return False
-                return dfs(node.children[char], i + 1)
+                if char in node.children:
+                    return dfs(node.children[char], i + 1)
+                return False
             else:
                 for child in node.children.values():
                     if dfs(child, i + 1):

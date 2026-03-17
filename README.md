@@ -24,9 +24,9 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Arrays & Hashing | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Arrays & Hashing | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Arrays & Hashing | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Arrays & Hashing | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
-| Arrays & Hashing | [Ransom Note](https://leetcode.com/problems/ransom-note/) | $\textcolor{green}{\textsf{Easy}}$ | ☠️ |
+| Arrays & Hashing | [Ransom Note](https://leetcode.com/problems/ransom-note/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
@@ -55,7 +55,9 @@ This repository contains my solutions to LeetCode problems.
 | Two Pointers | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Two Pointers | [3Sum](https://leetcode.com/problems/3sum/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Two Pointers | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | $\textcolor{red}{\textsf{Hard}}$ | |
-| Sliding Window | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
+| Sliding Window | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | $\textcolor{green}{\textsf{Easy}}$ | |
+| Sliding Window | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
+| Sliding Window | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Sliding Window | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Sliding Window | [Maximum Sum Subarray of Size K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
@@ -66,7 +68,7 @@ This repository contains my solutions to LeetCode problems.
 | Binary Search | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Heap / Priority Queue | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
 | Trie | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
-| Trie | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Trie | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Trie | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Backtracking | [Subsets](https://leetcode.com/problems/subsets/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Backtracking | [Word Search](https://leetcode.com/problems/word-search/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |

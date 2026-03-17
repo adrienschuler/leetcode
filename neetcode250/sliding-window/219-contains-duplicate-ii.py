@@ -27,3 +27,16 @@ class Solution:
             window.add(nums[r])
 
         return False
+
+# Approach: Hash Table to store last seen index of each number
+# Time Complexity: O(N) where N is the length of nums
+# Space Complexity: O(N) in the worst case if all elements are unique
+class Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        seen = {}
+        for i, num in enumerate(nums):
+            if num in seen:
+                if i - seen[num] <= k:
+                    return True
+            seen[num] = i
+        return False

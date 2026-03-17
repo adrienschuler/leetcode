@@ -13,19 +13,17 @@ Return a list of lists of the suggested products after each character of searchW
 """
 
 from typing import List
+from dataclasses import dataclass, field
 
 # Topics: Array, String, Binary Search, Trie, Sorting
 
 # Approach: Trie (Prefix Tree) — store up to 3 words per node at insert time (sorted)
 # Time: insert O(n log n) where n is the number of products (due to sorting), search O(m) where m is the length of searchWord
 # Space: O(m) where m is the total number of characters in all products
-
-
+@dataclass
 class TrieNode:
-    def __init__(self):
-        self.children = {}
-        self.words = []  # up to 3 lexicographically smallest words through this node
-
+    children: dict = field(default_factory=dict)
+    words: list = field(default_factory=list)  # up to 3 lexicographically smallest words through this node
 
 class Solution:
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
