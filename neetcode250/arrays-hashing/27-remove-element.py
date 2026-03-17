@@ -17,7 +17,7 @@ Return k.
 # Time Complexity: O(n)
 # Space Complexity: O(1)
 class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+    def removeElement(self, nums: list[int], val: int) -> int:
         k = 0
         for num in nums:
             if num != val:
@@ -29,7 +29,7 @@ class Solution:
 # Time Complexity: O(n)
 # Space Complexity: O(1)
 class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+    def removeElement(self, nums: list[int], val: int) -> int:
         l, r = 0, len(nums) - 1
 
         while l <= r:

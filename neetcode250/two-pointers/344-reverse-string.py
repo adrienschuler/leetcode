@@ -12,7 +12,7 @@ You must do this by modifying the input array in-place with O(1) extra memory.
 # Time complexity: O(n)
 # Space complexity: O(1)
 class Solution:
-    def reverseString(self, s: List[str]) -> None:
+    def reverseString(self, s: list[str]) -> None:
         """
         Do not return anything, modify s in-place instead.
         """
@@ -25,7 +25,7 @@ class Solution:
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 class Solution:
-    def reverseString(self, s: List[str]) -> None:
+    def reverseString(self, s: list[str]) -> None:
         """
         Do not return anything, modify s in-place instead.
         """
@@ -41,7 +41,7 @@ class Solution:
 # Time Complexity: O(n)
 # Space Complexity: O(n) (function call stack)
 class Solution:
-    def reverseString(self, s: List[str]) -> None:
+    def reverseString(self, s: list[str]) -> None:
         """
         Do not return anything, modify s in-place instead.
         """

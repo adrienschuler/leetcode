@@ -15,7 +15,7 @@ Return the array ans.
 # Time complexity: O(n)
 # Space complexity: O(1)
 class Solution:
-    def getConcatenation(self, nums: List[int]) -> List[int]:
+    def getConcatenation(self, nums: list[int]) -> list[int]:
         size = len(nums)
         for i in range(size):
             nums.append(nums[i])
@@ -23,7 +23,7 @@ class Solution:
 
 # Pythonic way
 class Solution:
-    def getConcatenation(self, nums: List[int]) -> List[int]:
+    def getConcatenation(self, nums: list[int]) -> list[int]:
         nums.extend(nums)
         return nums
 
@@ -31,7 +31,7 @@ class Solution:
 # Time complexity: O(n)
 # Space complexity: O(n)
 class Solution:
-    def getConcatenation(self, nums: List[int]) -> List[int]:
+    def getConcatenation(self, nums: list[int]) -> list[int]:
         n = len(nums)
         ans = [0] * (n * 2)
         for i in range(n):

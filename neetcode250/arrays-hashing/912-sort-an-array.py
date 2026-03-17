@@ -13,11 +13,8 @@ You must solve the problem without using any built-in functions in O(nlog(n)) ti
 # Heap sort
 # BST (Binary Search Tree)
 
-from typing import List
-
-
 class Solution:
-    def sortArray(self, nums: List[int]) -> List[int]:
+    def sortArray(self, nums: list[int]) -> list[int]:
         # return self.bubbleSort(nums)
         # return self.insertionSort(nums)
         # return self.bucketSort(nums)
@@ -28,7 +25,7 @@ class Solution:
     # Time complexity: O(n^2)
     # Space complexity: O(1)
     # Stable: Yes
-    def bubbleSort(self, arr: List[int]) -> List[int]:
+    def bubbleSort(self, arr: list[int]) -> list[int]:
         n = len(arr)
 
         for i in range(n):
@@ -48,7 +45,7 @@ class Solution:
     # Time complexity: O(n^2)
     # Space complexity: O(1)
     # Stable: Yes
-    def insertionSort(self, arr: List[int]) -> List[int]:
+    def insertionSort(self, arr: list[int]) -> list[int]:
         n = len(arr)
 
         for i in range(1, n):
@@ -63,7 +60,7 @@ class Solution:
     # Time complexity: O(n + k) where n is number of elements and k is number of buckets
     # Space complexity: O(n + k) for the buckets
     # Stable: Yes
-    def bucketSort(self, arr: List[int]) -> List[int]:
+    def bucketSort(self, arr: list[int]) -> list[int]:
         n = len(arr)
         buckets = [[] for _ in range(n)]
 
@@ -87,17 +84,17 @@ class Solution:
     # Time complexity: O(n log n) on average, O(n^2) in the worst case
     # Space complexity: O(log n) due to recursion stack
     # Stable: No
-    def quickSort(self, arr: List[int]) -> List[int]:
+    def quickSort(self, arr: list[int]) -> list[int]:
         return self.quickSortHelper(arr, 0, len(arr) - 1)
 
-    def quickSortHelper(self, arr: List[int], low: int, high: int) -> List[int]:
+    def quickSortHelper(self, arr: list[int], low: int, high: int) -> list[int]:
         if low < high:
             pi = self.partition(arr, low, high)
             self.quickSortHelper(arr, low, pi - 1)
             self.quickSortHelper(arr, pi + 1, high)
         return arr
 
-    def partition(self, arr: List[int], low: int, high: int) -> int:
+    def partition(self, arr: list[int], low: int, high: int) -> int:
         pivot = arr[high]
         i = low - 1
 
@@ -110,7 +107,7 @@ class Solution:
         return i + 1
 
     # Approach: Using list comprehensions
-    def _quickSort(self, arr: List[int]) -> List[int]:
+    def _quickSort(self, arr: list[int]) -> list[int]:
         if len(arr) <= 1: return arr
         pivot = arr[0]
         left = [x for x in arr[1:] if x < pivot]
@@ -121,7 +118,7 @@ class Solution:
     # Time complexity: O(n log n) Divide step takes O(log n) and Merge step takes O(n)
     # Space complexity: O(n) because of the extra arrays created during the merge process (not in-place)
     # Stable: Yes
-    def mergeSort(self, arr: List[int]) -> List[int]:
+    def mergeSort(self, arr: list[int]) -> list[int]:
         print("mergeSort:", arr)
         n = len(arr)
         if n == 1: return arr
@@ -131,7 +128,7 @@ class Solution:
 
         return self.mergeSortedArrays(L, R)
 
-    def mergeSortedArrays(self, L: List[int], R: List[int]) -> List[int]:
+    def mergeSortedArrays(self, L: list[int], R: list[int]) -> list[int]:
         print("mergeSortedArrays:", L, R)
         l = r = i = 0
         L_len, R_len = len(L), len(R)

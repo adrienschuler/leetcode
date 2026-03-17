@@ -13,7 +13,7 @@ If there is no common prefix, return an empty string "".
 # Time Complexity: O(m * n) where m is the length of the shortest string and n is the number of strings
 # Space Complexity: O(1)
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix(self, strs: list[str]) -> str:
         shortest = min(strs, key=len)
         for i, c in enumerate(shortest):
             for s in strs:
@@ -26,7 +26,7 @@ class Solution:
 # Time Complexity: O(m * n) where m is the length of the first string and n is the number of strings
 # Space Complexity: O(1)
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix(self, strs: list[str]) -> str:
         prefix = ""
         for i, char in enumerate(strs[0]):
             for word in strs[1:]:

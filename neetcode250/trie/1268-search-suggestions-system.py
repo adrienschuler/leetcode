@@ -12,7 +12,6 @@ minimum products.
 Return a list of lists of the suggested products after each character of searchWord is typed.
 """
 
-from typing import List
 from dataclasses import dataclass, field
 
 # Topics: Array, String, Binary Search, Trie, Sorting
@@ -26,11 +25,11 @@ class TrieNode:
     words: list = field(default_factory=list)  # up to 3 lexicographically smallest words through this node
 
 class Solution:
-    def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
+    def suggestedProducts(self, products: list[str], searchWord: str) -> list[list[str]]:
         self._index(products)
         return self._suggest(searchWord)
 
-    def _index(self, products: List[str]) -> None:
+    def _index(self, products: list[str]) -> None:
         self.root = TrieNode()
         for word in sorted(products):
             cur = self.root
@@ -39,7 +38,7 @@ class Solution:
                 if len(cur.words) < 3:
                     cur.words.append(word)
 
-    def _suggest(self, searchWord: str) -> List[List[str]]:
+    def _suggest(self, searchWord: str) -> list[list[str]]:
         suggestions = []
         cur = self.root
         for char in searchWord:

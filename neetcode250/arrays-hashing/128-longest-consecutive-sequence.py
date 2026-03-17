@@ -14,7 +14,7 @@ You must write an algorithm that runs in O(n) time.
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 class Solution:
-    def longestConsecutive(self, nums: List[int]) -> int:
+    def longestConsecutive(self, nums: list[int]) -> int:
         numSet = set(nums)
         longest = 0
 

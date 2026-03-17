@@ -14,7 +14,7 @@ Given an array nums with n objects colored red, white, or blue, sort them in-pla
 # Time complexity: O(n)
 # Space complexity: O(1)
 class Solution:
-    def sortColors(self, nums: List[int]) -> None:
+    def sortColors(self, nums: list[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
         """

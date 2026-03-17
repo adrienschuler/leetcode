@@ -15,7 +15,7 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
 # Time Complexity: O(N) where N is the length of prices
 # Space Complexity: O(1)
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list[int]) -> int:
         l = maxP = 0
 
         for r in range(1, len(prices)):

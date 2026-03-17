@@ -14,7 +14,7 @@ If there is no future day for which this is possible, keep answer[i] == 0 instea
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 class Solution:
-    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+    def dailyTemperatures(self, temperatures: list[int]) -> list[int]:
         stack = []
         res = [0] * len(temperatures)
         for i in range(len(temperatures)):

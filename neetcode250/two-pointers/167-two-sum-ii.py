@@ -12,7 +12,7 @@ Given a 1-indexed array of integers numbers that is already sorted in non-decrea
 # Time Complexity: O(n) where n is the length of numbers
 # Space Complexity: O(1)
 class Solution:
-    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+    def twoSum(self, numbers: list[int], target: int) -> list[int]:
         l, r = 0, len(numbers) - 1
 
         while l < r:

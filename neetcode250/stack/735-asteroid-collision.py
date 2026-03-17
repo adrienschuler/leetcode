@@ -16,7 +16,7 @@ Find out the state of the asteroids after all collisions. If two asteroids meet,
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 class Solution:
-    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
+    def asteroidCollision(self, asteroids: list[int]) -> list[int]:
         stack = []
         for a in asteroids:
             while stack and a < 0 and stack[-1] > 0:

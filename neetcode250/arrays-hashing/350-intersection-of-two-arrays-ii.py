@@ -29,13 +29,12 @@ What if elements of nums2 are stored on disk, and the memory is limited such tha
 """
 
 from collections import Counter
-from typing import List
 
 
 # Approach: hash map
 # Time: O(n + m) or O(min(n, m)) if we count freqs on smaller list
 # Space: O(n)
-def intersection(nums1: List[int], nums2: List[int]) -> List[int]:
+def intersection(nums1: list[int], nums2: list[int]) -> list[int]:
     inter = []
 
     # 1. count freqs on smallest list (saves time and space)
@@ -53,7 +52,7 @@ def intersection(nums1: List[int], nums2: List[int]) -> List[int]:
 # Approach: two pointers (requires sorted input)
 # Time: O(n + m)
 # Space: O(1)
-def intersection(nums1: List[int], nums2: List[int]) -> List[int]:
+def intersection(nums1: list[int], nums2: list[int]) -> list[int]:
     inter = []
     l = r = 0
 

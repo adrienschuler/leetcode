@@ -12,7 +12,7 @@ Given an integer array nums, return an array answer such that answer[i] is equal
 # Time Complexity: O(N) where N is the length of nums
 # Space Complexity: O(1) excluding the output array
 class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
+    def productExceptSelf(self, nums: list[int]) -> list[int]:
         res = [1] * len(nums)
         prefix = 1
         for i in range(len(nums)):

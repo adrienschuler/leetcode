@@ -26,7 +26,7 @@ The test cases are generated such that the answer and all intermediate calculati
 # Time Complexity: O(N)
 # Space Complexity: O(N)
 class Solution:
-    def calPoints(self, operations: List[str]) -> int:
+    def calPoints(self, operations: list[str]) -> int:
         stack = []
         for op in operations:
             if op == "+":

@@ -23,7 +23,7 @@ The answer and all the intermediate calculations can be represented in a 32-bit 
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 class Solution:
-    def evalRPN(self, tokens: List[str]) -> int:
+    def evalRPN(self, tokens: list[str]) -> int:
         stack = []
         for c in tokens:
             if c == "+":

@@ -13,7 +13,7 @@ Return the answer sorted by the frequency from highest to lowest. Sort the words
 # Time:  O(n log n) where U is the number of unique words
 # Space: O(U) where U is the number of unique words
 class Solution:
-    def topKFrequent(words: list, k: int) -> List:
+    def topKFrequent(words: list, k: int) -> list:
         # Edge cases:
         # - what if k > len(words)
         # - ?
@@ -32,7 +32,7 @@ class Solution:
 # Time Complexity: O(n log n) due to heap operations and sorting
 # Space Complexity: O(n) for the heap and frequency map
 class Solution:
-    def topKFrequent(self, words: List[str], k: int) -> List[str]:
+    def topKFrequent(self, words: list[str], k: int) -> list[str]:
         counts = Counter(words)
         hq = []
 

@@ -13,7 +13,7 @@ You must write an algorithm with O(log n) runtime complexity.
 # Time Complexity: O(log N) where N is the length of nums
 # Space Complexity: O(1)
 class Solution:
-    def search(self, nums: List[int], target: int) -> int:
+    def search(self, nums: list[int], target: int) -> int:
         l, r = 0, len(nums) - 1
 
         while l <= r:

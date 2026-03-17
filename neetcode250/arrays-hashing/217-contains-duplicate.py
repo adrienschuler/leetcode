@@ -12,7 +12,7 @@ Given an integer array nums, return true if any value appears at least twice in 
 # Time complexity: O(n)
 # Space complexity: O(n)
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate(self, nums: list[int]) -> bool:
         seen = set()
         for num in nums:
             if num in seen:

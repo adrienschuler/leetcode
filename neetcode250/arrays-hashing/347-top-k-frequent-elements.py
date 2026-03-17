@@ -12,7 +12,7 @@ Given an integer array nums and an integer k, return the k most frequent element
 # Time complexity: O(n)
 # Space complexity: O(n)
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         freqs = Counter(nums)
         buckets = [[] for _ in range(len(nums) + 1)]
         for num, freq in freqs.items():
@@ -28,7 +28,7 @@ class Solution:
 # Time Complexity: O(n log k)
 # Space Complexity: O(n)
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         counts = Counter(nums)
         hq = []
 

@@ -12,7 +12,7 @@ Given an array of strings strs, group the anagrams together. You can return the 
 # Time Complexity: O(n * k log k) where n is the number of strings and k is the maximum length of a string
 # Space Complexity: O(n)
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         anagrams = defaultdict(list)
         for i, s in enumerate(strs):
             anagrams[''.join(sorted(s))].append(s)
@@ -23,7 +23,7 @@ class Solution:
 # Time Complexity: O(n * k) where n is the number of strings and k is the maximum length of a string
 # Space Complexity: O(n)
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         res = defaultdict(list)
 
         for s in strs:
