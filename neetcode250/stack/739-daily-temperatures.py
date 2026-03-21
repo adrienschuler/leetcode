@@ -15,11 +15,11 @@ If there is no future day for which this is possible, keep answer[i] == 0 instea
 # Space Complexity: O(n)
 class Solution:
     def dailyTemperatures(self, temperatures: list[int]) -> list[int]:
-        stack = []
-        res = [0] * len(temperatures)
-        for i in range(len(temperatures)):
-            while stack and temperatures[i] > temperatures[stack[-1]]:
-                temp = stack.pop()
-                res[temp] = i - temp
-            stack.append(i)
-        return res
+        indices = []
+        output = [0] * len(temperatures)
+        for i, temp in enumerate(temperatures):
+            while indices and temp > temperatures[indices[-1]]:
+                j = indices.pop()
+                output[j] = i - j
+            indices.append(i)
+        return output
