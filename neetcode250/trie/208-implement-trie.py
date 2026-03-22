@@ -21,32 +21,30 @@ and retrieve keys in a dataset of strings. Implement the Trie class:
 class TrieNode:
     def __init__(self):
         self.children = {}
-        self.endOfWord = False
+        self.word = False
 
 class Trie:
     def __init__(self):
         self.root = TrieNode()
 
     def insert(self, word: str) -> None:
-        cur = self.root
+        node = self.root
         for char in word:
-            if char not in cur.children:
-                cur.children[char] = TrieNode()
-            cur = cur.children[char]
-        cur.endOfWord = True
+            node = node.children.setdefault(char, TrieNode())
+        node.word = True
 
     def search(self, word: str) -> bool:
-        cur = self.root
+        node = self.root
         for char in word:
-            if char not in cur.children:
+            if char not in node.children:
                 return False
-            cur = cur.children[char]
-        return cur.endOfWord
+            node = node.children[char]
+        return node.word
 
     def startsWith(self, prefix: str) -> bool:
-        cur = self.root
+        node = self.root
         for char in prefix:
-            if char not in cur.children:
+            if char not in node.children:
                 return False
-            cur = cur.children[char]
+            node = node.children[char]
         return True
