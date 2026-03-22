@@ -14,7 +14,7 @@ This repository contains my solutions to LeetCode problems.
 | Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
 | Arrays & Hashing | [Remove Element](https://leetcode.com/problems/remove-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Majority Element](https://leetcode.com/problems/majority-element/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Arrays & Hashing | [Design HashSet](https://leetcode.com/problems/design-hashset/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Arrays & Hashing | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Arrays & Hashing | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Arrays & Hashing | [Sort Colors](https://leetcode.com/problems/sort-colors/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
@@ -30,7 +30,7 @@ This repository contains my solutions to LeetCode problems.
 | Stack | [Baseball Game](https://leetcode.com/problems/baseball-game/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Stack | [Implement Stack Using Queue](https://leetcode.com/problems/implement-stack-using-queues/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
-| Stack | [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
+| Stack | [Implement Queue Using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Stack | [Min Stack](https://leetcode.com/problems/min-stack/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
 | Stack | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Stack | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
@@ -40,17 +40,21 @@ This repository contains my solutions to LeetCode problems.
 | Linked List | [LRU Cache](https://leetcode.com/problems/lru-cache/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Trees | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Trees | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
+| Trees | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | $\textcolor{green}{\textsf{Easy}}$ | |
+| Trees | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | $\textcolor{green}{\textsf{Easy}}$ | |
+| Trees | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | $\textcolor{green}{\textsf{Easy}}$ | |
 | Trees | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | BST | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | $\textcolor{green}{\textsf{Easy}}$ | |
 | BST | [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
-| BST | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
+| BST | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| BST | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | BST | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Two Pointers | [Reverse String](https://leetcode.com/problems/reverse-string/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Two Pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Two Pointers | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
 | Two Pointers | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | $\textcolor{green}{\textsf{Easy}}$ | 🟠 |
 | Two Pointers | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
-| Two Pointers | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🔴 |
+| Two Pointers | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | $\textcolor{green}{\textsf{Easy}}$ | 🟢 |
 | Two Pointers | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟠 |
 | Two Pointers | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Two Pointers | [3Sum](https://leetcode.com/problems/3sum/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
@@ -67,9 +71,9 @@ This repository contains my solutions to LeetCode problems.
 | Binary Search | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Binary Search | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Heap / Priority Queue | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
-| Trie | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Trie | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🟢 |
 | Trie | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
-| Trie | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
+| Trie | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) | $\textcolor{yellow}{\textsf{Medium}}$ | 🔴 |
 | Backtracking | [Subsets](https://leetcode.com/problems/subsets/) | $\textcolor{yellow}{\textsf{Medium}}$ | |
 | Backtracking | [Word Search](https://leetcode.com/problems/word-search/) | $\textcolor{yellow}{\textsf{Medium}}$ | ☠️ |
 | Maths & Geometry | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | $\textcolor{green}{\textsf{Easy}}$ | |
